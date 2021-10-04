@@ -1,0 +1,10 @@
+<!-- ============================================================== -->
+<!-- Navbar  -->
+<!-- ============================================================== -->
+<app-navbar-home (activateInput)="activateInput_ = $event" (homeC)="mostrar = $event"
+    (navigate)="navigateRouter($event)" (saveProject)="saveProject(true, $event)" [projectPanelManager]="projects"
+    [projectSelected]="projectSelect" [lang]="lang" [editMode]="editMode">
+</app-navbar-home>
+<!-- ============================================================== -->
+<!-- End Navbar  -->
+<!-- ============================================================== -->
